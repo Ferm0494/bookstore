@@ -1,4 +1,4 @@
-export const BOOK_CATEGORIES = [
+const BOOK_CATEGORIES = [
   'Action',
   'Biography',
   'History',
@@ -7,3 +7,5 @@ export const BOOK_CATEGORIES = [
   'Learning',
   'Sci-Fi',
 ];
+
+export default BOOK_CATEGORIES;

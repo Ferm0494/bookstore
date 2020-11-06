@@ -1,20 +1,23 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { BOOK_CATEGORIES } from '../../utils/const';
+import BOOK_CATEGORIES from '../../utils/const';
 
-const BookForm = props => (
+const BookForm = () => (
   <form>
-    <label htmlFor="fname">Book Title:</label>
-    <input type="title" id="fname" name="fname" />
-    <label htmlFor="cars">Choose a car:</label>
-    <select id="categories" name="bookCategories">
-      {BOOK_CATEGORIES.map(book => (
-        <option value={book}>{book}</option>
-      ))}
-    </select>
+    <label htmlFor="title">
+      Book Title:
+      <input type="title" id="title" name="title" />
+    </label>
+    <label htmlFor="categories">
+      Choose a car:
+      <select id="categories" name="categories">
+        {BOOK_CATEGORIES.map(book => (
+          <option key={book} value={book}>
+            {book}
+          </option>
+        ))}
+      </select>
+    </label>
   </form>
 );
-
-BookForm.propTypes = {};
 
 export default BookForm;

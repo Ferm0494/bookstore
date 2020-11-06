@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 const BookList = () => (
   <table>
@@ -10,7 +9,5 @@ const BookList = () => (
     </tr>
   </table>
 );
-
-BookList.propTypes = {};
 
 export default BookList;
