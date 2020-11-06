@@ -8,4 +8,12 @@ const BOOK_CATEGORIES = [
   'Sci-Fi',
 ];
 
-export default BOOK_CATEGORIES;
+// ACTIONS_TYPES
+const DELETE_BOOK = 'DELETE_BOOK';
+const CREATE_BOOK = 'CREATE_BOOK';
+
+export {
+  DELETE_BOOK,
+  CREATE_BOOK,
+  BOOK_CATEGORIES,
+};

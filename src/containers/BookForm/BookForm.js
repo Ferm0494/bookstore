@@ -1,5 +1,6 @@
 import React from 'react';
-import BOOK_CATEGORIES from '../../utils/const';
+import { connect } from 'react-redux';
+import { BOOK_CATEGORIES } from '../../utils/const';
 
 const BookForm = () => (
   <form>
@@ -11,7 +12,7 @@ const BookForm = () => (
       Choose a car:
       <select id="categories" name="categories">
         {BOOK_CATEGORIES.map(book => (
-          <option key={book} value={book}>
+          <option key={book + Date.now()} value={book}>
             {book}
           </option>
         ))}
@@ -20,4 +21,4 @@ const BookForm = () => (
   </form>
 );
 
-export default BookForm;
+export default connect(null, null)(BookForm);
