@@ -1,17 +1,17 @@
 export default [
   {
-    id: Math.random(),
+    id: Math.floor(Math.random() * 100000),
     title: 'Book 1',
     category: 'Action',
   },
 
   {
-    id: Math.random(),
+    id: Math.floor(Math.random() * 100000),
     title: 'Book2',
     category: 'Learning',
   },
   {
-    id: Math.random(),
+    id: Math.floor(Math.random() * 100000),
     title: 'Book3',
     category: 'Horror',
   },

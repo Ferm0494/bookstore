@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Book = ({ book }) => (
   <tr>
-    <td>{book.Id}</td>
+    <td>{book.id}</td>
     <td>{book.title}</td>
     <td>{book.category}</td>
   </tr>
@@ -11,7 +11,7 @@ const Book = ({ book }) => (
 
 Book.propTypes = {
   book: PropTypes.shape({
-    Id: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
   }),
