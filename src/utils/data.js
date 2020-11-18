@@ -1,17 +1,19 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export default [
   {
-    id: Math.floor(Math.random() * 100000),
+    id: uuidv4(),
     title: 'Book 1',
     category: 'Action',
   },
 
   {
-    id: Math.floor(Math.random() * 100000),
+    id: uuidv4(),
     title: 'Book2',
     category: 'Learning',
   },
   {
-    id: Math.floor(Math.random() * 100000),
+    id: uuidv4(),
     title: 'Book3',
     category: 'Horror',
   },
