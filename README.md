@@ -1,6 +1,59 @@
-# Getting Started with Create React App
+<h1 align="center">
+  :book: Bookstore :convenience_store: 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+
+* [About the Project](#about-the-project)
+* [Live Demo](#live-demo)
+* [Getting started](#getting-started)
+* [Prerequisites](#prerequisites)
+* [Built With](#built-with)
+* [Available Scripts](#available-scripts)
+* [Run automated tests](#run-automated-tests)
+* [Deployment](#deployment)
+* [Authors](#authors)
+* [Contributing](#contributing)
+* [Acknowledgments](#acknowledgments)
+* [Screen shots](screen-shots)
+* [License](#license)
+
+## About the project
+
+> This app helps Math Magicians bussines on doing some of they daily calculations. 
+  It's purpose is to showcase what I have learn about basics of react.
+
+## Live Demo
+
+https://bookstore-mv.herokuapp.com/
+
+## Getting started
+
+To get a local copy up and running follow these simple example steps
+
+- Clone the repository by running in the console of your local machine the following command
+
+  ```
+  git clone https://github.com/Ferm0494/bookstore.git
+  ```
+- Change directory to bookstore new directory:
+  ```
+  cd bookstore
+  ```
+- Install all the necessary packages with:
+  ```
+  npm install
+  ```
+
+## Prerequisites
+
+- node version: 14.15.0
+- npm version: 6.14.8
+- heroku cli: heroku/7.46.2
+
+## Built with
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
@@ -39,32 +92,63 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Run automated test
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- npm test
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+- To deploy your own version of this bookstore run in Heroku, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  ```
+  heroku create -b https://github.com/mars/create-react-app-buildpack.git bookstore-by-your-name
+  ```
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Fernando Rivas**
 
-### Making a Progressive Web App
+- Github: [@Ferm0494](https://github.com/Ferm0494)
+- Twitter: [@ferm494](https://twitter.com/ferm494)
+- Linkedin: [@Ferm0494](https://www.linkedin.com/in/ferm0494/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Oscar Alfredo Gómez Elizarrarás**
 
-### Advanced Configuration
+- Github: [@Ferm0494](https://github.com/Ferm0494)
+- Twitter: [@OscarAlfredoGm4](https://twitter.com/OscarAlfredoGm4)
+- Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to check the [issues page](https://github.com/Ferm0494/bookstore/issues).
 
-### `yarn build` fails to minify
+### Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+
+## Acknowlegdments
+
+- [Microverse](https://microverse.org)
+
+## Screen shots
+
+Coming soon
+
+---
+
+## License
+
+
+This project is [MIT](https://github.com/Ferm0494/bookstore/blob/master/LICENSE) licensed.
+
+Copyright 2020 Fernando Enrique Rivas Medina and Oscar Alfredo Gómez Elizarrarás
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
